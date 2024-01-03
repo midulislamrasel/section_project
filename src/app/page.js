@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="">
       <div>
-        <div className="block">
+        <div className="container mx-auto">
           <h2 className="text-3xl font-semibold text-center ">Project </h2>
 
           <button
@@ -15,9 +15,9 @@ export default function Home() {
             All Project
           </button>
         </div>
-        <div className="mt-20">
+        <div className="mt-20 container mx-auto">
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="row-span-2 md:col-span-3 sm:col-span-2 lg:col-span-1 lg:text-left md:text-center ">
+            <div className="row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2  lg:text-left md:text-center ">
               <button
                 type="button"
                 className=" md:inline-block block   bg-sky-500 px-5 py-2 rounded-xl text-white font-medium mb-2"
@@ -36,6 +36,54 @@ export default function Home() {
               >
                 Web Development
               </button>
+            </div>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
             <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
               <Image src={Img} className=" rounded-t-lg" />
