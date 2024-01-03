@@ -37,89 +37,101 @@ export default function Home() {
                 Web Development
               </button>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <div className=" bg-gray-400 h-auto p-3 text-white  rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-md" />
-              <h2 className=" font-medium text-xl">Web Design</h2>
-              <p className=" text-sm mb-3">
-                Many desktop publishing packages and web page editors now use
-                packages and Lorem....
-              </p>
-              <button
-                type="button"
-                className=" bg-sky-500 px-4 py-1 rounded-md"
-              >
-                Details
-              </button>
+            <div className=" bg-gray-400 h-auto  text-white  rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-slate-300 text-zinc-700 py-3 px-2 rounded-b-lg">
+                <h2 className=" font-medium text-xl">Web Design</h2>
+                <p className=" text-sm mb-3">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem....
+                </p>
+                <button
+                  type="button"
+                  className=" bg-sky-500 px-4 py-1 rounded-md"
+                >
+                  Details
+                </button>
+              </div>
             </div>
           </div>
         </div>
