@@ -6,8 +6,9 @@ export default function Home() {
     <main className="">
       <div>
         <div className="container mx-auto">
-          <h2 className="text-3xl font-semibold text-center ">Project </h2>
-
+          <h2 className=" mb-4 text-3xl font-semibold text-center mx-auto  border-b-4 w-28 border-sky-500">
+            Project
+          </h2>
           <button
             type="button"
             className=" bg-sky-500 px-5 py-3 rounded-xl font-medium block float-right text-white"
