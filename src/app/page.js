@@ -1,6 +1,10 @@
 import Image from "next/image";
-import Img from "./Image.webp";
-
+import Img from "./img.jpg";
+import Img2 from "./img2.jpg";
+import Img3 from "./img3.jpg";
+import Img4 from "./img4.jpg";
+import Img5 from "./img5.jpg";
+import Img6 from "./img6.jpg";
 export default function Home() {
   return (
     <main className="">
@@ -18,7 +22,7 @@ export default function Home() {
         </div>
         <div className="mt-20 container mx-auto">
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2  lg:text-left md:text-center ">
+            <div className="row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2  lg:text-left lg:ml-16 md:text-center ">
               <button
                 type="button"
                 className=" md:inline-block block px-5 py-2 mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium  rounded-xl  text-primary-bg"
@@ -38,9 +42,9 @@ export default function Home() {
                 Web Development
               </button>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+            <div className=" relative bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
               <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+              <div className="  bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -50,15 +54,15 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+            <div className=" relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img2} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -68,15 +72,15 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+            <div className="relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img3} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2  mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -86,15 +90,15 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+            <div className="relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img4} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -104,15 +108,15 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+            <div className="relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img5} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -122,15 +126,15 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
-            <div className="  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 rounded-b-lg">
+            <div className=" relative bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img6} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
                   Web Design
                 </h2>
@@ -140,16 +144,13 @@ export default function Home() {
                 </p>
                 <button
                   type="button"
-                  className=" px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
                 >
                   Details
                 </button>
               </div>
             </div>
           </div>
-        </div>
-        <div>
-          <h1>HEllo</h1>
         </div>
       </div>
     </main>
