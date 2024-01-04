@@ -1,8 +1,5 @@
-import Image from "next/image";
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
-import { SiWebflow } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -12,8 +9,10 @@ function Services() {
       <h1 className=" text-3xl mx-auto text-center font-semibold my-14  border-b-4 w-32 pb-1 border-primary-orange">
         Servise{" "}
       </h1>
-      <div className=" flex gap-12">
-        <div className="  py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center">
+      {/* sm:flex-wrap md:flex-nowrap ld:basis-1/3 md:basis-1/2  */}
+      {/* <div className=" flex sm:flex-wrap md:flex-nowrap justify-between gap-8  "> */}
+      <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6">
+        <div className="sm:baisi-full py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center">
           <MdDesignServices className=" text-8xl mx-auto text-pink-500" />
           <div className=" bg-primary-bg  py-4 px-2  rounded-b-lg">
             <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title">
@@ -32,7 +31,7 @@ function Services() {
             </button>
           </div>
         </div>
-        <div className="  py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center">
+        <div className="sm:baisi-full py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center ">
           <FaReact className=" text-8xl mx-auto text-sky-400" />
 
           <div className=" bg-primary-bg  py-4 px-2  rounded-b-lg">
@@ -52,7 +51,7 @@ function Services() {
             </button>
           </div>
         </div>
-        <div className="  py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center">
+        <div className="sm:baisi-full py-5 px-8 bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70  text-center ">
           <div className=" bg-primary-bg  py-4 px-2  rounded-b-lg">
             <TbBrandNextjs className=" text-8xl mx-auto text-trueGray-950" />
             <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title">
@@ -71,9 +70,6 @@ function Services() {
             </button>
           </div>
         </div>
-      </div>
-      <div className="mt-12">
-        <h1>Hello</h1>
       </div>
     </div>
   );

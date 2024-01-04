@@ -17,8 +17,9 @@ function Project() {
           </button>
         </div>
         <div className="mt-20 container mx-auto">
-          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2  lg:text-left lg:ml-16 md:text-center ">
+          {/* <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"> */}
+          <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6  ">
+            <div className="row-span-2 lg:col-span-3 md:col-span-2 sm:col-span-1  md:text-center lg:text-left  ">
               <button
                 type="button"
                 className=" md:inline-block block px-5 py-2 mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium  rounded-xl  text-primary-bg"
@@ -154,3 +155,6 @@ function Project() {
 }
 
 export default Project;
+
+// row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2
+// className="row-span-3 lg:col-span-1 md:col-span-3 sm:col-span-2  lg:text-left lg:ml-16 md:text-center
