@@ -1,13 +1,10 @@
 import Image from "next/image";
-import Project from "./Project/Project";
-import Services from "./Services/Services";
-
-export default function Home() {
+import React from "react";
+import { Img, Img2, Img3, Img4, Img5, Img6 } from "./Image/image";
+function Project() {
   return (
-    <main className="">
-      <Project />
-      <Services />
-      {/* <div>
+    <div>
+      <div>
         <div className="container mx-auto">
           <h1 className=" mb-4 text-primary-title text-4xl font-primary font-semibold text-center mx-auto  border-b-4 w-32 pb-1 border-primary-orange  ">
             Project
@@ -42,10 +39,10 @@ export default function Home() {
               </button>
             </div>
             <div className=" relative bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img} className=" rounded-t-lg" />
+              <Image src={Img4} className=" rounded-t-lg" />
               <div className="  bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
-                  Web Design
+                  Firma Side
                 </h2>
                 <p className=" text-base  font-primary font-normal mb-5 text-paragraph ">
                   Many desktop publishing packages and web page editors now use
@@ -81,25 +78,7 @@ export default function Home() {
               <Image src={Img3} className=" rounded-t-lg" />
               <div className=" bg-primary-bg  py-3 px-2  mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
-                  Web Design
-                </h2>
-                <p className=" text-base  font-primary font-normal mb-5 text-paragraph ">
-                  Many desktop publishing packages and web page editors now use
-                  packages and Lorem editors now....
-                </p>
-                <button
-                  type="button"
-                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
-                >
-                  Details
-                </button>
-              </div>
-            </div>
-            <div className="relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
-              <Image src={Img4} className=" rounded-t-lg" />
-              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
-                <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
-                  Web Design
+                  Web Development
                 </h2>
                 <p className=" text-base  font-primary font-normal mb-5 text-paragraph ">
                   Many desktop publishing packages and web page editors now use
@@ -131,11 +110,29 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className=" relative bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+            <div className="relative  bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
               <Image src={Img6} className=" rounded-t-lg" />
               <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
                 <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
-                  Web Design
+                  Figma Design
+                </h2>
+                <p className=" text-base  font-primary font-normal mb-5 text-paragraph ">
+                  Many desktop publishing packages and web page editors now use
+                  packages and Lorem editors now....
+                </p>
+                <button
+                  type="button"
+                  className="absolute bottom-0 left-2 px-4 py-1 rounded-md  mb-2 text-base font-primary bg-primary-orange shadow-md shadow-gray-400/70  font-medium   text-primary-bg"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div className=" relative bg-primary-bg h-auto rounded-md shadow-lg shadow-gray-400/70">
+              <Image src={Img} className=" rounded-t-lg" />
+              <div className=" bg-primary-bg  py-3 px-2 mb-8 rounded-b-lg">
+                <h2 className=" my-3 font-primary font-normal text-2xl text-primary-title ">
+                  Web Development
                 </h2>
                 <p className=" text-base  font-primary font-normal mb-5 text-paragraph ">
                   Many desktop publishing packages and web page editors now use
@@ -151,7 +148,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
-    </main>
+      </div>
+    </div>
   );
 }
+
+export default Project;
